@@ -95,8 +95,7 @@ const HeroSection = () => {
   );
 };
 
-const TARGET_DATE = new Date("2026-05-30T00:00:00").getTime();
-
+const TARGET_DATE = new Date("2026-04-15T00:00:00").getTime();
 function getTimeLeft() {
   const diff = Math.max(0, TARGET_DATE - Date.now());
   return {
