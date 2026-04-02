@@ -33,7 +33,7 @@ const WhySubmitSection = () => (
         <Button
           size="lg"
           className="gradient-sky text-primary-foreground font-bold text-lg px-10 py-6 rounded-full shadow-xl hover:scale-105 transition-all"
-          onClick={() => document.getElementById("registration")?.scrollIntoView({ behavior: "smooth" })}
+          onClick={() => window.open("https://onegrasp.com/conference-events/international-conference-on-nursing-midwifery-patient-care/", "_blank")}
         >
           Submit Abstract Now
         </Button>

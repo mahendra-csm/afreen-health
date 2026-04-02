@@ -66,7 +66,7 @@ const HeroSection = () => {
               size="lg"
               variant="outline"
               className="border-2 border-primary-foreground text-primary-foreground bg-transparent font-bold text-lg px-10 py-6 rounded-full hover:bg-primary-foreground/10 transition-all"
-              onClick={() => document.getElementById("call-for-papers")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => window.open("https://onegrasp.com/conference-events/international-conference-on-nursing-midwifery-patient-care/", "_blank")}
             >
               Submit Abstract
             </Button>
@@ -89,7 +89,7 @@ const HeroSection = () => {
   );
 };
 
-const TARGET_DATE = new Date("2026-05-30T00:00:00").getTime();
+const TARGET_DATE = new Date("2026-04-15T00:00:00").getTime();
 
 function getTimeLeft() {
   const diff = Math.max(0, TARGET_DATE - Date.now());
