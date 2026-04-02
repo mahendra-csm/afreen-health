@@ -62,14 +62,20 @@ const HeroSection = () => {
             >
               Register Now
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-2 border-primary-foreground text-primary-foreground bg-transparent font-bold text-lg px-10 py-6 rounded-full hover:bg-primary-foreground/10 transition-all"
-              onClick={() => document.getElementById("call-for-papers")?.scrollIntoView({ behavior: "smooth" })}
-            >
-              Submit Abstract
-            </Button>
+          <Button
+  asChild
+  size="lg"
+  variant="outline"
+  className="border-2 border-primary-foreground text-primary-foreground bg-transparent font-bold text-lg px-10 py-6 rounded-full hover:bg-primary-foreground/10 transition-all"
+>
+  <a
+    href="https://onegrasp.com/conference-events/international-conference-on-nursing-midwifery-patient-care/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Submit Abstract
+  </a>
+</Button>
           </div>
 
           {/* Trust Badges */}
