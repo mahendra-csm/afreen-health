@@ -1,4 +1,5 @@
 import { Mail, Phone } from "lucide-react";
+import logo from "@/assets/onegrasp-logo.png";
 
 const Footer = () => (
   <footer className="gradient-dark py-16">
@@ -6,7 +7,7 @@ const Footer = () => (
       <div className="grid md:grid-cols-3 gap-10 mb-10">
         {/* Brand */}
         <div>
-          <h3 className="font-display text-2xl font-bold text-primary-foreground mb-4">OneGrasp</h3>
+          <img src={logo} alt="OneGrasp" className="h-10 w-auto mb-4" />
           <div className="space-y-2 text-primary-foreground/70 text-sm">
             <a href="mailto:support@onegrasp.com" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Mail className="w-4 h-4" /> support@onegrasp.com
